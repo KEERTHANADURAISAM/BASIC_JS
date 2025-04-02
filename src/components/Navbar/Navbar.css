@@ -1,0 +1,20 @@
+.navbar {
+    background-color: rgb(59, 103, 104);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    height: 5rem;
+    z-index: 1000; 
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+}
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+.nav-links li {
+    list-style-type: none;
+    cursor: pointer;
+}
