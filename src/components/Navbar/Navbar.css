@@ -10,6 +10,33 @@
     top: 0; 
     width: 100%; 
 }
+/* Search Bar Container */
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Search Input */
+.input-search-bar {
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 40px; /* Adjust padding to make space for icon */
+    font-size: 16px;
+    outline: none;
+}
+
+/* Search Icon Inside Input */
+.search-icon {
+    position: absolute;
+    left: 10px; /* Adjust left position inside the input */
+    color: gray;
+    font-size: 20px;
+    pointer-events: none; /* Prevent icon from being clicked */
+}
+
 .nav-links {
     display: flex;
     gap: 2rem;
